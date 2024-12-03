@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Entre em Contato</title>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+        <img src="Imagens/BMW.png" alt="Logo" />
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Novos</a></li>
+            <li><a href="#">Seminovos</a></li>
+            <li><a href="#">Pós Vendas</a></li>
+            <li><a href="#">Peças e Acessórios</a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Sobre Nós</a></li>
+        </ul>
+    </nav>
+    <div class="icons-header">
+      <div class="icon-texto">
+        <a href="#"><img src="Imagens/map pin.png" alt="Localização" /></a>
+        <span>Localização</span>
+    </div>
+    <div class="icon-texto">
+        <a href="#"><img src="Imagens/phone.png" alt="Telefone" /></a>
+        <span>Telefone</span>
+    </div>
+    <div class="icon-texto">
+        <a href="#"><img src="Imagens/whatsapp.png" alt="WhatsApp" /></a>
+        <span>WhatsApp</span>
+    </div>
+    </div>
+</header>
+
+  <main>
+    <section class="formulario-contato">
+      <h1>ENTRE EM CONTATO</h1>
+      <form id="formulario">
+        <div class="grupo-campos">
+          <input type="text" name="nome" placeholder="Nome" autocomplete="name" required>
+          <input type="email" name="email" placeholder="E-mail" autocomplete="email" required>
+        </div>
+        <div class="grupo-campos">
+          <input type="tel" name="telefone" placeholder="Telefone" autocomplete="tel" required>
+          <select name="assunto" id="assunto" autocomplete="off" required>
+            <option value="" disabled selected>Selecione um Assunto</option>
+            <option value="assistencia">Assistência Tecnica</option>
+            <option value="novos">Carros Novos</option>
+            <option value="seminovos">Carros Seminovos</option>
+          </select>
+        </div>
+        <textarea name="mensagem" placeholder="Mensagem" id="mensagem" autocomplete="off" required></textarea>
+        <div class="politica-privacidade">
+          <input type="checkbox" name="privacidade" id="privacidade">
+          <label for="privacidade">Aceito a <a href="#">Política de Privacidade</a></label>
+        </div>
+        <button type="submit" disabled>Enviar</button>
+      </form>
+      <div class="popup" id="popup">
+        <div class="popup-content">
+          <img src="Imagens/check.png" alt="Ícone" />
+          <h2>Olá. Sua Mensagem foi recebida com sucesso!</h2>
+          <p>Em breve entraremos em contato.</p>
+          <button id="close-popup">Fechar</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+  
+
+  <footer>
+    <div class="redes-sociais">
+      <a href="https://www.instagram.com/"><img src="Imagens/instagram.png" alt="Instagram"></a>
+      <a href="https://www.facebook.com/"><img src="Imagens/facebook.png" alt="Facebook"></a>
+      <a href="https://www.youtube.com/"><img src="Imagens/youtube.png" alt="YouTube"></a>
+      <a href="https://www.linkedin.com/"><img src="Imagens/linkedin.png" alt="linkedin"></a>
+      <a href="https://x.com/"><img src="Imagens/x-twitter 1.png" alt="Twitter"></a>
+      <a href="https://www.whatsapp.com/"><img src="Imagens/whatsapp.png" alt="whatsapp"></a>
+    </div>
+    <p>© Copyright 2024 – Alpes BMW. Todos os direitos reservados.</p>
+    <p>Feito por Agência XYZ</p>
+  </footer>
+</body> 
+</html>
